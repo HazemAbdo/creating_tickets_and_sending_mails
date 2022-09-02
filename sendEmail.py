@@ -2,8 +2,8 @@
 system that sends emails to a list of members from excel sheet
 each email is customized with a member's information and a ticket with a unique QR code
 '''
+# pip install openpyxl     pip install secure-smtplib     pip install email  pip install sockets
 from email.message import EmailMessage
-import pandas as pd
 import smtplib
 import openpyxl
 import socket
